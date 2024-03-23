@@ -592,7 +592,34 @@ body{
 .faq {
   font-size: xx-large;
   text-align: center;
+  margin-top: 0px;
 }
+.frequent{
+  align-items: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+
+ .faq-quiz{
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.faq-quiz:after{
+   /* content:"\02C5";  */
+  content:"\2228" ; 
+  margin-left: 50px;
+  font-size: 20px;
+  
+ 
+}
+.answer{
+  display: none;
+  overflow: hidden;
+}
+
 
 
 /*Footer Section*/
