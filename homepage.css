@@ -670,7 +670,7 @@ flex-wrap: wrap;
 .discuss {
 background-color: #005100;
 width: 580px;
-height: 815px;
+height: auto;
 color: white;
 padding: 50px;
 font-size: 30px;
